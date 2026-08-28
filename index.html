@@ -1,15 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Redirecting…</title>
-  <meta http-equiv="refresh" content="0; url=https://fabacademy.org/2026/labs/kochi/students/nadec-biju/">
-  <link rel="canonical" href="https://fabacademy.org/2026/labs/kochi/students/nadec-biju/">
-  <script>
-    window.location.replace("https://fabacademy.org/2026/labs/kochi/students/nadec-biju/");
-  </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nadec Biju</title>
+<style>
+  :root {
+    --bg: #0d0f12;
+    --card: #16191d;
+    --accent: #e8442c;
+    --text: #f2f2f2;
+    --muted: #9aa0a6;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+    letter-spacing: -0.02em;
+  }
+  p.tagline {
+    color: var(--muted);
+    margin-top: 0;
+    margin-bottom: 2.2em;
+    font-size: 0.95rem;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  a.btn {
+    display: block;
+    padding: 16px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  a.btn:active { transform: scale(0.98); }
+  a.btn.primary {
+    background: var(--accent);
+    color: #fff;
+  }
+  a.btn.secondary {
+    background: var(--card);
+    color: var(--text);
+  }
+  a.btn:hover { opacity: 0.9; }
+  footer {
+    margin-top: 2.5em;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+</style>
 </head>
 <body>
-  <p>Redirecting to <a href="https://fabacademy.org/2026/labs/kochi/students/nadec-biju/">my Fab Academy page</a>…</p>
+  <div class="card">
+    <h1>Nadec Biju</h1>
+    <p class="tagline">Mechanical Engineer &middot; Motorsport &amp; Digital Fabrication</p>
+    <div class="buttons">
+      <a class="btn primary" href="https://fabacademy.org/2026/labs/kochi/students/nadec-biju/">Fab Academy Portfolio</a>
+      <a class="btn secondary" href="Nadec%20Biju%20Resume%20(Aug%2026).pdf" target="_blank" rel="noopener">Resume</a>
+    </div>
+    <footer>nadec-biju.github.io</footer>
+  </div>
 </body>
 </html>
