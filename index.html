@@ -58,7 +58,8 @@
   ],
   "sameAs": [
     "https://fabacademy.org/2026/labs/kochi/students/nadec-biju/",
-    "https://github.com/NB6RULES"
+    "https://github.com/NB6RULES",
+    "https://www.linkedin.com/in/nadec-biju/"
   ]
 }
 </script>
@@ -129,6 +130,36 @@
   }
   a.btn:hover { opacity: 0.9; }
 
+  /* Social icons */
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 1.4em;
+  }
+  .socials a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: var(--card);
+    border: 1px solid rgba(255,255,255,0.08);
+    color: var(--text);
+    transition: transform 0.15s ease, opacity 0.15s ease, background 0.15s ease;
+  }
+  .socials a:hover {
+    opacity: 0.9;
+    background: var(--accent);
+  }
+  .socials a:active { transform: scale(0.94); }
+  .socials svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+
   /* Roles / affiliations list — semantic + visually distinct chips */
   .roles {
     list-style: none;
@@ -168,6 +199,15 @@
     <div class="buttons">
       <a class="btn primary" href="https://fabacademy.org/2026/labs/kochi/students/nadec-biju/">Fab Academy Portfolio</a>
       <a class="btn secondary" href="Nadec%20Biju%20Resume%20(Aug%2026).pdf" target="_blank" rel="noopener">Resume</a>
+    </div>
+
+    <div class="socials" aria-label="Social profiles">
+      <a href="https://github.com/NB6RULES" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.73.5.98 5.24.98 11.5c0 4.87 3.16 9 7.55 10.46.55.1.76-.24.76-.53 0-.26-.01-1.13-.02-2.05-3.07.67-3.72-1.3-3.72-1.3-.5-1.28-1.23-1.62-1.23-1.62-1-.7.08-.68.08-.68 1.1.08 1.68 1.14 1.68 1.14.98 1.68 2.58 1.2 3.2.91.1-.71.38-1.2.7-1.47-2.45-.28-5.02-1.22-5.02-5.45 0-1.2.43-2.19 1.13-2.96-.11-.28-.49-1.4.11-2.92 0 0 .93-.3 3.04 1.13a10.6 10.6 0 0 1 5.54 0c2.11-1.43 3.04-1.13 3.04-1.13.6 1.52.22 2.64.11 2.92.71.77 1.13 1.76 1.13 2.96 0 4.24-2.58 5.17-5.04 5.44.39.34.74 1.01.74 2.04 0 1.47-.01 2.66-.01 3.02 0 .29.2.64.77.53A10.98 10.98 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5Z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/nadec-biju/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.25 2.36 4.25 5.44v6.3zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+      </a>
     </div>
 
     <ul class="roles" aria-label="Roles and affiliations">
